@@ -6,7 +6,7 @@
 #include "boot_merger.h"
 #include <time.h>
 #include <sys/stat.h>
-#include <version.h>
+//#include <version.h>
 
 /* #define USE_P_RC4 */
 
