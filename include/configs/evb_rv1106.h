@@ -14,7 +14,8 @@
 #define ROCKCHIP_DEVICE_SETTINGS \
 			"stdout=serial,vidconsole\0" \
 			"stderr=serial,vidconsole\0" \
-			"bootdelay=2\0"
+			"bootdelay=2\0" \
+			"bootargs=rk_dma_heap_cma=1M\0"
 #undef CONFIG_CONSOLE_SCROLL_LINES
 #define CONFIG_CONSOLE_SCROLL_LINES            10
 
